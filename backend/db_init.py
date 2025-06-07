@@ -3,7 +3,7 @@ from faker import Faker
 import random
 
 def create_db():
-    conn = sqlite3.connect("database.db")
+    conn = sqlite3.connect("./data/database.db")
     cursor = conn.cursor()
 
     # Crée une table Produits
