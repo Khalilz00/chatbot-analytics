@@ -7,12 +7,12 @@ Python 3.9+
 Git
 Token Hugging Face
 
-### Installation
+### 1. Installation
 Cloner le projet
 git clone https://github.com/Khalilz00/chatbot-analytics.git
 cd chatbot-analytics
 
-### Créer un environnement virtuel
+### 2. Créer un environnement virtuel
 
 #### Windows :
 python -m venv venv
@@ -22,28 +22,28 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-### Installer les dépendances
+### 3. Installer les dépendances
 pip install -r backend/requirements.txt
 
-### Créer la base de données
+### 4. Créer la base de données
 python backend/db_init.py
 
-### Configuration du token Hugging Face
+### 5. Configuration du token Hugging Face
 Créer un fichier .env à la racine du projet.
 
-### Ajouter votre token Hugging Face :
+### 6. Ajouter votre token Hugging Face :
 
 HF_TOKEN="Bearer votre_token_personnel_ici"
 
 
-### Lancement du projet
+### 7. Lancement du projet
 Lancer le backend Flask (dans un terminal)
 python backend/app.py
 
-### Lancer le frontend Streamlit (dans un autre terminal, avec le même venv activé)
+### 8. Lancer le frontend Streamlit (dans un autre terminal, avec le même venv activé)
 streamlit run frontend/streamlit_app.py
 
-### Utilisation
+### 9. Utilisation
 Entrez une question dans l’interface (ex. : Quel est le plus haut chiffre d'affaire ?)
 
 Le backend transforme cette question en requête SQL grâce à l’API Hugging Face.
