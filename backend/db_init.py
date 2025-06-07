@@ -1,8 +1,10 @@
 import sqlite3
 from faker import Faker
 import random
+import os
 
 def create_db():
+    os.makedirs("data", exist_ok=True)
     conn = sqlite3.connect("./data/database.db")
     cursor = conn.cursor()
 
