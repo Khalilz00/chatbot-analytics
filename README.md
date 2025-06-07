@@ -1,6 +1,7 @@
 # chatbot-analytics
 
 Assistant produit en langage naturel permettant d'interroger une base de données sur les ventes (CA, marge, fournisseur…) via une interface Streamlit et un backend Flask connecté à l'API Hugging Face.
+![image](https://github.com/user-attachments/assets/212169b4-4064-4e94-b9eb-176b5c492e6f)
 
 ### Prérequis
 Python 3.9+
